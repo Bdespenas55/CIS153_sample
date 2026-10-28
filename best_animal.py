@@ -290,8 +290,9 @@ def main():
   selected_animal = random.choice(stored_animals)
 
   #print(f"Total animals stored in tree: {len(stored_animals)}")
-  print(f"Best animal ever: {selected_animal} (It's not a cat!)")
+  print(f"Best animal ever: {selected_animal} (Never a cat!)")
 
 
 if __name__ == "__main__":
   main()
+  input("\nPress Enter to exit...") # Pause for all dwell in 'fact'
